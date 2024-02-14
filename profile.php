@@ -21,7 +21,7 @@ if (!isset($_SESSION['user'])) {
             echo "<img src = '{$_SESSION['user']['avatar']}'?>";
             echo $_SESSION['user']['full_name'] . "<br>";
             echo $_SESSION['user']['email']. "<br>";
-            echo "<a href='vendor/logout.php' style = 'color:red; margin-top: 10px; '> logout </a>". "<br>";
+            echo "<a href='vendor/logout.php' style = 'color:red; margin-top: 15px; border: 2px; '> logout </a>". "<br>";
         ?>
     </div>
 </body>
